@@ -121,11 +121,45 @@
 }
 
 /*--Contact and Copyright Section--*/
-.page-section-title-contact{
-    font-size: 22px;
-    margin-top: 10px;
+.page-section-title-contact-details{
+    font-size: 32px;
+    margin-top: 40px;
     font-family: "Montserrat", sans-serif;
     margin-left: 40px;
     margin-right: 40px;
+    color: #333333;
     
+}
+.page-section-title-contact{
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: "Lato", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color: #333333;
+    display: inline-block;
+    flex-wrap: wrap;
+    
+}
+
+@media (max-width: 840px)
+{
+    .page-section-title-contact{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.page-section-title-contact:hover{
+    color: #666666;
+}
+
+.page-section-text-contact{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
