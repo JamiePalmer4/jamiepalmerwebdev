@@ -22,6 +22,10 @@
     }
 }
 
+.container {
+    max-width: 100%;
+}
+
 /*--Home Section--*/
 .page-section-title-home{
     font-size: 32px;
@@ -58,18 +62,21 @@
 
 /*--Profile Picture Image--*/
 #profilePicture{
-    height: 300px;
-    margin-top: 30px; 
-    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     border-radius: 2px;
+    height: 400px;
 }
 
 @media (max-width: 840px)
 {
     #profilePicture{
-        height: 300px;
+        height: 400px;
         margin-top: 20px;
         margin-bottom: 20px;
+        max-width: 100%;
     }
     
     .btn{
@@ -185,7 +192,7 @@
 
 #portfolioPicture{
     height: 300px;
-    width: 400px;
+    width: 80%;
     margin-top: 40px; 
     border-radius: 2px;
     margin-left: 20px;
@@ -213,10 +220,12 @@ a:hover img {
 @media (max-width: 1140px)
 {
     #portfolioPicture{
-        height: 250px;
-        width: 400px;
+        height: 200px;
+        width: 250px;
         margin-top: 5px;
         margin-bottom: 5px;
+        max-width: 100%;
+        height: auto;
     }    
 }
 
