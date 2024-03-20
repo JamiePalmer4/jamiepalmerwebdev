@@ -73,7 +73,7 @@
 @media (max-width: 840px)
 {
     #profilePicture{
-        height: 400px;
+        height: 300px;
         margin-top: 20px;
         margin-bottom: 20px;
         max-width: 100%;
@@ -82,6 +82,8 @@
     .btn{
         margin-bottom: 20px;
         margin-top: 20px;
+        width: 200px;
+        font-size: 18px;
     }
     
 }
