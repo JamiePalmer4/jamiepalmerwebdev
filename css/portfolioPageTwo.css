@@ -1,0 +1,131 @@
+/*--Navigational Element Styling--*/
+.navbar-brand{
+    padding-top: 5px;
+}
+
+.navbar{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #F9F6EE;
+    padding: 16px;
+    margin-right: 10px;
+}
+
+.nav-item{
+    margin: 4px;
+}
+
+@media (max-width: 900px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+/*--Portfolio One Section--*/
+.page-section-title-portfolio-one{
+    font-size: 32px;
+    margin-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.page-section-text-portfolio-one{
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-family: "Lato", sans-serif;
+}
+
+/*--Profile Picture Image--*/
+#portfolioOneMockup{
+    height: 400px;
+    width: auto;
+    margin-top: 60px; 
+    margin-bottom: 60px;
+    border-radius: 2px;
+}
+
+@media (max-width: 840px)
+{
+    #portfolioOneMockup{
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }   
+}
+
+
+/*--Key Features Section--*/
+.page-section-title-features{
+    font-size: 38px;
+    margin-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.page-section-title-key-features{
+    font-size: 32px;
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+
+.page-section-text-key-features{
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 840px)
+{
+    .page-section-text-key-features{
+        margin-bottom: 40px;
+    }   
+}
+
+/*--Portfolio Website Images--*/
+#portfolioOneWebsiteFeatures{
+    height: 400px;
+    width: 700px;
+    margin-top: 60px; 
+    margin-bottom: 60px;
+    border-radius: 2px;
+    border: 2px solid #000;
+}
+
+#portfolioOneWebsiteFeaturesLogo{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    border-radius: 2px;
+    height: 400px;
+}
+
+@media (max-width: 1040px)
+{
+    #portfolioOneWebsiteFeatures{
+        height: 300px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }   
+}
+
+/*--Contact and Copyright Section--*/
+.page-section-title-contact{
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
