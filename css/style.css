@@ -46,6 +46,9 @@
 }
 
 .btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Roboto", sans-serif;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -84,6 +87,7 @@
         margin-top: 20px;
         width: 200px;
         font-size: 18px;
+        max-width: 100%;
     }
     
 }
@@ -190,6 +194,7 @@
     margin-top: 20px;
     margin-bottom: 100px;
     font-family: "Lato", sans-serif;
+    color: #333333;
 }
 
 #portfolioPicture{
