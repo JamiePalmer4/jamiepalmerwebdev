@@ -37,13 +37,23 @@
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     font-family: "Lato", sans-serif;
+}
+
+.page-section-text-portfolio-link{
+    font-size: 22px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: "Lato", sans-serif;
+    color: #333333;
 }
 
 /*--Profile Picture Image--*/
 #portfolioOneMockup{
-    height: 350px;
+    height: 250px;
     width: 500px;
     margin-top: 60px; 
     margin-bottom: 60px;
@@ -95,7 +105,7 @@
 }
 
 /*--Portfolio Website Images--*/
-#portfolioOneWebsiteFeatures{
+#portfolioThreeWebsiteFeatures{
     height: 400px;
     width: 700px;
     margin-top: 60px; 
@@ -104,7 +114,7 @@
     border: 2px solid #000;
 }
 
-#portfolioOneWebsiteFeaturesLogo{
+#portfolioThreeWebsiteFeaturesLogo{
     margin-top: 60px; 
     margin-bottom: 60px;
     border-radius: 2px;
@@ -112,7 +122,7 @@
 
 @media (max-width: 1040px)
 {
-    #portfolioOneWebsiteFeatures{
+    #portfolioThreeWebsiteFeatures{
         height: 300px;
         margin-top: 40px;
         margin-bottom: 40px;
