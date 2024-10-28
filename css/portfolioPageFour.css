@@ -1,0 +1,174 @@
+/*--Navigational Element Styling--*/
+.navbar-brand{
+    padding-top: 5px;
+}
+
+.navbar{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #F9F6EE;
+    padding: 16px;
+    margin-right: 10px;
+}
+
+.nav-item{
+    margin: 4px;
+}
+
+@media (max-width: 900px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+/*--Portfolio One Section--*/
+.page-section-title-portfolio-one{
+    font-size: 32px;
+    margin-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.page-section-text-portfolio-one{
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Lato", sans-serif;
+}
+
+.page-section-text-portfolio-link{
+    font-size: 22px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: "Lato", sans-serif;
+    color: #333333;
+}
+
+/*--Profile Picture Image--*/
+#portfolioOneMockup{
+    height: 150px;
+    width: 500px;
+    margin-top: 160px; 
+    margin-bottom: 60px;
+    border-radius: 2px;
+}
+
+@media (max-width: 840px)
+{
+    #portfolioOneMockup{
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }   
+}
+
+
+/*--Key Features Section--*/
+.page-section-title-features{
+    font-size: 38px;
+    margin-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.page-section-title-key-features{
+    font-size: 32px;
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+
+.page-section-text-key-features{
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 840px)
+{
+    .page-section-text-key-features{
+        margin-bottom: 40px;
+    }   
+}
+
+/*--Portfolio Website Images--*/
+#portfolioThreeWebsiteFeatures{
+    height: 400px;
+    width: 700px;
+    margin-top: 60px; 
+    margin-bottom: 60px;
+    border-radius: 2px;
+    border: 2px solid #000;
+}
+
+#portfolioThreeWebsiteFeaturesLogo{
+    margin-top: 60px; 
+    margin-bottom: 60px;
+    border-radius: 2px;
+}
+
+@media (max-width: 1040px)
+{
+    #portfolioThreeWebsiteFeatures{
+        height: 300px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }   
+}
+
+/*--Contact and Copyright Section--*/
+.page-section-title-contact-details{
+    font-size: 32px;
+    margin-top: 40px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #333333;
+    
+}
+.page-section-title-contact{
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: "Lato", sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color: #333333;
+    display: inline-block;
+    flex-wrap: wrap;
+    
+}
+
+@media (max-width: 840px)
+{
+    .page-section-title-contact{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.page-section-title-contact:hover{
+    color: #666666;
+}
+
+.page-section-text-contact{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
